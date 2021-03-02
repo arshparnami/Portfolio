@@ -1,0 +1,35 @@
+
+table{
+    border-collapse: collapse;
+}
+.home{
+    background-color: rgb(182, 189, 190);
+    text-align: center;
+    font-size: 150%;
+}
+td{
+   padding: 10%; 
+   background-color:#00f7ff;
+    align-self: center;
+    align: center;
+}
+.imge img{
+    height: 60%;
+    width: auto;
+    margin-left: 70%;
+    border-radius: 60%;
+    position: fixed;
+    
+}
+td:hover{
+    color:yellow;
+    background-color: black;
+    transition:all .6s;
+}
+section img{
+    height: 7%;
+    border-radius: 1%;
+}
+section img:hover{
+    background-color: black;
+}
