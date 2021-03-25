@@ -1,18 +1,37 @@
-
-table{
-    border-collapse: collapse;
+.nav-bar{
+    background-color:black;
+    width: 40%;
+    padding: 2% 4%;
+    color: aqua;
+    text-align: center;
+    overflow: hidden;
+}
+.nav-bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.nav-bar a:hover{
+     color: black;
+     background-color: yellow;
+     transition: 0.8s;
 }
 .home{
     background-color: rgb(182, 189, 190);
     text-align: center;
     font-size: 150%;
 }
+/*
 td{
    padding: 10%; 
    background-color:#00f7ff;
     align-self: center;
     align: center;
 }
+*/
 .imge img{
     height: 60%;
     width: auto;
@@ -21,15 +40,33 @@ td{
     position: fixed;
     
 }
+/*
 td:hover{
     color:yellow;
     background-color: black;
     transition:all .6s;
 }
+*/
 section img{
     height: 7%;
     border-radius: 1%;
 }
-section img:hover{
+
+#Skills{
+    background-color:#373;
+    padding: 10%;
+    line-height: 500%;
+}
+#About
+#contact{
+}
+.con{
     background-color: black;
+    padding: 4% 5%;
+    text-align: center;
+    float:center;
+    overflow: hidden;
+}
+.con a:hover{
+    background-color: red;
 }
