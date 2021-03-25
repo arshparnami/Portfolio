@@ -1,16 +1,18 @@
 .nav-bar{
+    margin-left: 0%;
     background-color:black;
-    width: 40%;
-    padding: 2% 4%;
+    width: 400px;
+    padding: 2% 2%;
     color: aqua;
     text-align: center;
     overflow: hidden;
+    
 }
 .nav-bar a {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 25px 20px;
+    padding: 20px 20px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -24,21 +26,28 @@
     text-align: center;
     font-size: 150%;
 }
-/*
-td{
-   padding: 10%; 
-   background-color:#00f7ff;
-    align-self: center;
-    align: center;
+table{
+    background-color: palevioletred;
+    align-items: center;
+    width: 30%;
 }
-*/
+td{
+    padding: 20px 0px;
+}
+p{
+    overflow: hidden;
+}
 .imge img{
-    height: 60%;
+    height: 50%;
     width: auto;
     margin-left: 70%;
     border-radius: 60%;
-    position: fixed;
+    position: absolute;
+    display: flex;
     
+}
+#about table{
+    margin-top: 25px;
 }
 /*
 td:hover{
@@ -50,16 +59,38 @@ td:hover{
 section img{
     height: 7%;
     border-radius: 1%;
+    position: relative;
 }
+h2{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.welcome{
+    
+    padding: 10px 20px;
+    width: 40%;
+    margin-left: 30%;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+    animation:animatetop 0.8s;
 
+}
+@keyframes animatetop
+    {from{top:-300px;opacity:0} 
+        to{top:0;opacity:1}
+    }
 #Skills{
     background-color:#373;
-    padding: 10%;
-    line-height: 500%;
+    
+    line-height: 250%;
 }
-#About
-#contact{
+#interest{
+    position: relative;
+    padding: 10% 25%; 
+    line-height: 200%; 
 }
+
 .con{
     background-color: black;
     padding: 4% 5%;
@@ -67,6 +98,21 @@ section img{
     float:center;
     overflow: hidden;
 }
+.con img:hover{
+    transform: translateY(-10px);
+}
 .con a:hover{
     background-color: red;
+    transition: 0.5s;
+}
+.lang{
+    margin-left: 60%;
+}
+.skills-2{
+    margin-left: 10%;
+}
+#about{
+    
+    width: 100%;
+    padding: ;
 }
