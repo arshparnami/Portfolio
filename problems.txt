@@ -1,6 +1,0 @@
-how to make a link go to another page
-center writing content in table - not working  
-font 
-image hover -error
-also wo # use krke specific div pe jana 
-break the div
