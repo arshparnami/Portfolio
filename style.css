@@ -1,3 +1,6 @@
+*{
+    font-family: sans-serif;
+}
 .nav-bar{
     margin-left: 0%;
     background-color:black;
@@ -27,7 +30,7 @@
     font-size: 150%;
 }
 table{
-    background-color: palevioletred;
+    background-color: #fcd5ce;
     align-items: center;
     width: 30%;
 }
@@ -48,6 +51,7 @@ p{
 }
 #about table{
     margin-top: 25px;
+    margin-left: 10%;
 }
 /*
 td:hover{
@@ -64,6 +68,7 @@ section img{
 h2{
     text-decoration: underline;
     text-decoration-color: red;
+    font-style: bold;
 }
 .welcome{
     
@@ -81,14 +86,14 @@ h2{
         to{top:0;opacity:1}
     }
 #Skills{
-    background-color:#373;
-    
+    background-color:#ffe5d9;
     line-height: 250%;
 }
 #interest{
     position: relative;
     padding: 10% 25%; 
-    line-height: 200%; 
+    line-height: 250%; 
+    background-color: #ffb4a2;
 }
 
 .con{
@@ -106,13 +111,12 @@ h2{
     transition: 0.5s;
 }
 .lang{
-    margin-left: 60%;
+    margin-left: 55%;
 }
 .skills-2{
-    margin-left: 10%;
+    margin-left: 15%;
 }
 #about{
-    
     width: 100%;
-    padding: ;
+    background-color: #f5cac3;
 }
